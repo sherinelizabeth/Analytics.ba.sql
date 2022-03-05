@@ -1,0 +1,4 @@
+SELECT primary_type,COUNT(primary_type) AS NO_OF_CRIMES 
+FROM `bigquery-public-data.austin_crime.crime` 
+GROUP BY 1
+ORDER BY 2 ASC 
