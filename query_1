@@ -1,0 +1,2 @@
+SELECT avg(family_households) as avg_family_households
+FROM `bigquery-public-data.census_bureau_acs.blockgroup_2010_5yr`
