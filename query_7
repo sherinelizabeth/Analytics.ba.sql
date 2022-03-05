@@ -1,0 +1,4 @@
+SELECT county_name,AVG(area_deprivation_index_percent) AS AVG_AREA_DEP_INDEX
+FROM `bigquery-public-data.broadstreet_adi.area_deprivation_index_by_census_block_group` 
+GROUP BY 1
+ORDER BY 2 ASC
