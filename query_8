@@ -1,0 +1,3 @@
+SELECT distinct County_of_Residence
+FROM `bigquery-public-data.sdoh_cdc_wonder_natality.county_natality` 
+where Births > 4000
