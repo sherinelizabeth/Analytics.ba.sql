@@ -1,0 +1,5 @@
+SELECT sh.property_type 
+FROM `properati-data-public.properties_cl.properties_rent_201501-2021-11-23T22_47_39` sh
+inner join `properati-data-public.properties_co.properties_rent_201501` eb 
+on sh.property_type=eb.property_type
+group by sh.property_type
