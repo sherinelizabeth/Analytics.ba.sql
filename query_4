@@ -1,0 +1,2 @@
+SELECT max (median_age) as max_median_age
+FROM `bigquery-public-data.census_bureau_acs.blockgroup_2010_5yr` 
