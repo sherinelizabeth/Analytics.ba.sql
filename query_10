@@ -1,0 +1,7 @@
+SELECT vr.year 
+FROM `bigquery-public-data.chicago_crime.crime` vr
+left join  `bigquery-public-data.austin_crime.crime` sr
+on vr.year=sr.year
+group by vr.year
+order by vr.year asc 
+limit 5
