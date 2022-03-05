@@ -1,0 +1,2 @@
+SELECT SUM (female_pop) AS TOTAL_NO_OF_FEMALE_POPULATION
+FROM `bigquery-public-data.census_bureau_acs.blockgroup_2010_5yr` 
